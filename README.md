@@ -20,4 +20,13 @@ The getIdentityRecord function allows users to view their own identity record.
 
 Please note that this implementation is a simplified version, and a real-world Decentralized Identity Verification system would require additional features, such as identity revocation, reputation systems, and more sophisticated attestation mechanisms. Also, ensure you implement the isAttester function with appropriate access control mechanisms to ensure only authorized entities can attest identities. Always conduct thorough testing and ensure security before deploying smart contracts in a production environment.
 
+Interact with the Smart Contract:
+
+Once the contract is deployed, you can interact with it using the provided functions. In Remix, go to the "Deployed Contracts" section to see the deployed contract. You can expand the contract and use the available functions to request identity verification, attest to identities, and view identity records.
+Customize Access Control:
+
+You will need to modify the isAttester function to implement the logic for checking if an address is an authorized attester. This can be based on roles, specific rules, or any other mechanism suitable for your application.
+Test the Smart Contract:
+
+Thoroughly test the smart contract to ensure that identity verification and attestation processes are reliable. In Remix, you can use the "Solidity Unit Testing" tab to write and run tests.
 
