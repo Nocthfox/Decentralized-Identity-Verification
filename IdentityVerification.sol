@@ -72,7 +72,7 @@ contract IdentityVerification {
 
     function isAttester(address _address) public view returns (bool) {
         // Implement logic to check if an address is an authorized attester
-        // (e.g., based on role management or specific rules)
+        // (e.g., based on role management or specific rules).
         return true; // Placeholder, you should modify this based on your implementation
     }
 
