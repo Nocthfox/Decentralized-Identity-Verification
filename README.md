@@ -2,9 +2,9 @@
 
 A system to verify identities without relying on a central authority. Users can prove their identity through attestations stored on the blockchain.
 
-__Note:__I'll provide a high-level outline of a Solidity smart contract for Decentralized Identity Verification, focusing on the basic structure and functionalities. Please note that this is a simplified implementation for educational purposes and might require further development and security audits for use in a production environment.
+__Note:__ I'll provide a high-level outline of a Solidity smart contract for Decentralized Identity Verification, focusing on the basic structure and functionalities. Please note that this is a simplified implementation for educational purposes and might require further development and security audits for use in a production environment.
 
-Explanation:
+__Explanation:__
 
 The contract defines a IdentityRecord struct to store user identity data, including their user ID, full name, document URI (link to identity document on IPFS or elsewhere), and the number of attestations received.
 
@@ -20,7 +20,7 @@ The getIdentityRecord function allows users to view their own identity record.
 
 Please note that this implementation is a simplified version, and a real-world Decentralized Identity Verification system would require additional features, such as identity revocation, reputation systems, and more sophisticated attestation mechanisms. Also, ensure you implement the isAttester function with appropriate access control mechanisms to ensure only authorized entities can attest identities. Always conduct thorough testing and ensure security before deploying smart contracts in a production environment.
 
-Interact with the Smart Contract:
+__Interact with the Smart Contract:__
 
 Once the contract is deployed, you can interact with it using the provided functions. In Remix, go to the "Deployed Contracts" section to see the deployed contract. You can expand the contract and use the available functions to request identity verification, attest to identities, and view identity records.
 Customize Access Control:
