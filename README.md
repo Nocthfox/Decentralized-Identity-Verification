@@ -23,7 +23,7 @@ Please note that this implementation is a simplified version, and a real-world D
 __Interact with the Smart Contract:__
 
 Once the contract is deployed, you can interact with it using the provided functions. In Remix, go to the "Deployed Contracts" section to see the deployed contract. You can expand the contract and use the available functions to request identity verification, attest to identities, and view identity records.
-Customize Access Control:
+__Customize Access Control:__
 
 You will need to modify the isAttester function to implement the logic for checking if an address is an authorized attester. This can be based on roles, specific rules, or any other mechanism suitable for your application.
 Test the Smart Contract:
