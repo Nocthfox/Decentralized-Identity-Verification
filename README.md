@@ -6,11 +6,9 @@ __Note:__ I'll provide a high-level outline of a Solidity smart contract for Dec
 
 __Explanation:__
 
-The contract defines a IdentityRecord struct to store user identity data, including their user ID, full name, document URI (link to identity document on IPFS or elsewhere), and the number of attestations received.
-
-Users can request identity verification by calling the requestIdentityVerification function and providing their full name and document URI.
-
-Attesters can attest to a user's identity using the attestIdentity function. They can specify the attestation type (e.g., KYC, email verification) during attestation.
+ - The contract defines a IdentityRecord struct to store user identity data, including their user ID, full name, document URI (link to identity document on IPFS or elsewhere), and the number of attestations received.
+ - Users can request identity verification by calling the requestIdentityVerification function and providing their full name and document URI.
+ - Attesters can attest to a user's identity using the attestIdentity function. They can specify the attestation type (e.g., KYC, email verification) during attestation.
 
 The contract maintains an array of Attestation structs to store all attestations made by attesters.
 
